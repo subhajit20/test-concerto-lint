@@ -1,0 +1,21 @@
+{
+  "name": "test-linter",
+  "version": "1.0.0",
+  "description": "",
+  "main": "./bin/index.js",
+  "bin": {
+    "concerto-lint": "./bin/index.js",
+    "concerto-init": "./bin/create-config.js",
+    "concerto-rules": "./bin/get-rules.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@accordproject/concerto-core": "^3.16.5",
+    "@stoplight/spectral-core": "^1.18.3",
+    "@stoplight/spectral-functions": "^1.7.2",
+    "@stoplight/spectral-parsers": "^1.0.3",
+    "g": "^2.0.1"
+  }
+}
